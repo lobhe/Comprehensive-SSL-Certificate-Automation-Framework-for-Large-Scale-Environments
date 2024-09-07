@@ -200,19 +200,7 @@ def main() -> None:
     Main function to initialize the SSLCertificateManager and process the hosts.
     """
     hosts: List[str] = [
-        'neo-influxdb-dev04.cisco.com', 'neo-telegraf-dev01.cisco.com', 'neo-telegraf-dev02.cisco.com',
-        'neo-telegraf-dev03.cisco.com', 'neo-telegraf-dev04.cisco.com',
-        'neo-telegraf-dev05.cisco.com', 'neo-telegraf-dev01-dmz.cisco.com',
-        'neo-telegraf-prod01.cisco.com', 'neo-telegraf-prod03.cisco.com',
-        'neo-telegraf-prod05.cisco.com', 'neo-telegraf-prod06.cisco.com',
-        'neo-telegraf-prod07.cisco.com', 'neo-telegraf-prod08.cisco.com',
-        'neo-telegraf-prod09.cisco.com', 'neo-telegraf-prod10.cisco.com',
-        'neo-telegraf-prod11.cisco.com', 'neo-telegraf-prod12.cisco.com',
-        'neo-telegraf-prod13.cisco.com', 'neo-telegraf-prod14.cisco.com',
-        'neo-telegraf-prod15.cisco.com', 'neo-telegraf-prod16.cisco.com',
-        'neo-telegraf-prod17.cisco.com', 'neo-telegraf-prod19.cisco.com',
-        'neo-telegraf-prod20.cisco.com', 'neo-telegraf-prod21.cisco.com',
-        'neo-telegraf-prod22.cisco.com', 'neo-telegraf-prod23.cisco.com'
+        "Production Device Need to be mentioned here.."
     ]
 
     country: str = "US"
